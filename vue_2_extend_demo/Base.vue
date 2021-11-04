@@ -1,7 +1,8 @@
 <template>
   <div>
       <h2 @click="onClick">标题:{{title}}</h2>
-      <p>标题被点击次数:{{count}} x 2 = {{doubleCount}}</p>
+      <p >标题被点击了{{count}}次</p>
+      <p>{{count}} x 2 = {{doubleCount}}</p>
   </div>
 </template>
 

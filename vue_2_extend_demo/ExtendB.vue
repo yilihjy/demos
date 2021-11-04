@@ -2,7 +2,8 @@
   <div>
       <!-- 单文件组件的模板会整个替换 -->
       <h2>标题:{{title}}</h2>
-      <p @click="onClick">我被点击次数:{{count}} x 2 = {{doubleCount}}</p>
+      <p>{{count}} x 2 = {{doubleCount}}</p>
+      <p class="text" @click="onClick">我被点击了{{count}}次</p>
   </div>
 </template>
 
@@ -16,7 +17,7 @@ export default {
 
 
 <style scoped>
-p {
+.text {
     cursor: pointer;
 }
 </style>
