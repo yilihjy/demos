@@ -14,3 +14,5 @@ vue serve -o
 ```bash
 vue build App.vue
 ```
+
+[预览地址](./dist/index.html)
