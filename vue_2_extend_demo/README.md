@@ -15,4 +15,6 @@ vue serve -o
 vue build App.vue
 ```
 
-[预览地址](./dist/index.html)
+
+![效果](./demo.gif)  
+[在线预览](./dist/index.html)  
